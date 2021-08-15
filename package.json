@@ -1,0 +1,17 @@
+{
+  "name": "todo-liszt",
+  "private": "true",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "packages/shared/*"
+  ],
+  "scripts": {
+    "dev:guest": "yarn --cwd packages/guest dev",
+    "dev:dashboard": "yarn --cwd packages/dashboard start",
+    "build:guest": "yarn --cwd packages/guest build",
+    "build:dashboard": "yarn --cwd packages/dashboard build",
+    "build": "yarn build:guest && yarn build:dashboard"
+  }
+}

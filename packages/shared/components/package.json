@@ -1,0 +1,8 @@
+{
+  "name": "@todo-liszt/components",
+  "version": "1.0.0",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
